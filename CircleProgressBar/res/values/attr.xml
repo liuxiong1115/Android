@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressBar">
+        <attr name="max" format="integer" /> <!-- 进度条最大值 -->
+        <attr name="mode">
+            <enum name="scanning_mode" value="0" />
+            <enum name="fill_mode" value="1" />
+        </attr>
+        <attr name="bottom_circle_color" format="integer" /> <!-- 底部背景画笔颜色 -->
+        <attr name="top_circle_color" format="integer" /> <!-- 顶部画笔颜色 -->
+        <attr name="textSize" format="integer" /> <!-- 中间文字大小 -->
+        <attr name="textColor" format="integer" /> <!-- 中间文字颜色 -->
+        <attr name="initialAngle" format="integer" /> <!-- 初始角度 -->
+    </declare-styleable>
+</resources>
