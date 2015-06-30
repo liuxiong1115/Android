@@ -1,2 +1,7 @@
-# Android-CircleProgressBar
-Android 圆形进度条，类似水面上升效果
+# 介绍
+CircleProgressBar
+Android 圆形进度条。
+分为两种模式：
+      填充模式（类似水面上升效果）
+      扫描模式（扫描显示进度）
+可自定义背景、进度、文字颜色。
